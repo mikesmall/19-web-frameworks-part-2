@@ -1,0 +1,38 @@
+/*
+CSS stylesheet files must always go in a directory called /public.
+(Sinatra convention)
+*/
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica;
+  line-height: 1.5;
+}
+
+header {
+  color: black;
+  background-color: wheat;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  boder-bottom: 5px solid black;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel ="stylesheet" href="/styles.css">
+  <title>CookBook</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="/">CookBook</a>
+  </header>
+
+  <main>
+    <!--  Content from the various pages will appear here -->
+    <!--  Always call this file layout.erb -->
+    <!--  (it's a Sinatra naming convention) -->
+    <%= yield %>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="/about">About</a>
+      |
+      <a href="/contact_us">Contact Us</a>
+      |
+      <a href="/blog">Blog</a>
+    </nav>
+    <p>&copy; 2112 Bitmaker GA</p>
+  </footer>
+</body>
+</html>
